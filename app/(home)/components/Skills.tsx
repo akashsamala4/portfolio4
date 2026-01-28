@@ -1,6 +1,6 @@
 "use client";
-import React from 'react';
 import { motion } from "framer-motion"; // Assuming framer-motion is available for animations
+import React from 'react';
 import { SiBootstrap, SiCss3, SiExpress, SiHtml5, SiJavascript, SiMongodb, SiMysql, SiNextdotjs, SiNodedotjs, SiPython, SiReact, SiTailwindcss } from 'react-icons/si';
 
 // --- Inline SVG Icons (Replacements for react-icons) ---
@@ -133,6 +133,8 @@ const Skills = () => {
     { text: "CSS", Icon: SiCss3, color: "#1572B6" },
     { text: "Bootstrap", Icon: SiBootstrap, color: "#7952B3" },
     { text: "MySQL", Icon: SiMysql, color: "#4479A1" },
+    {text: "C++", Icon: SiCplusplus, color: "#00599C"},
+    {text: "Power BI", Icon: SiPowerbi, color: "#F2C811"},
   ];
 
   return (
