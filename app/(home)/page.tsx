@@ -1,11 +1,11 @@
-import { About } from "./components/About"
+import { inject } from '@vercel/analytics'
+import About from "./components/About"
 import EducationSection from "./components/Education"
 import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
-import { inject } from '@vercel/analytics';
  
 inject();
 const page = () => {

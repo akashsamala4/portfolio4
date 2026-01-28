@@ -24,9 +24,11 @@ const HeroSection = () => {
             <Title text="Let's Connect" />
           </Link>
 
-          <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
-            <p>Available for Work</p>
-          </MovingBorderBtn>
+          <Link href="#about">
+            <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
+              <p>Available for Work</p>
+            </MovingBorderBtn>
+          </Link>
         </div>
       </div>
 

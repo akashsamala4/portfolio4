@@ -15,9 +15,10 @@ export default function About() {
           {/* Profile Image */}
           <div className="relative w-48 h-48 md:w-64 md:h-64 z-10">
             <Image
-              src="/Professional_edited.jpg"
+              src="/akashpic.jpg"
               alt="Samala Akash"
-              fill
+              width={256}
+              height={256}
               className="rounded-full border-4 border-blue-500 shadow-xl object-cover transition-transform duration-300 hover:scale-105"
             />
             <span className="absolute bottom-2 right-2 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow animate-bounce-slow">
@@ -63,7 +64,7 @@ export default function About() {
             {/* Resume Button */}
             <div className="pt-4 animate-slide-in-bottom">
               <a
-                href="/Samala_Akash_Resume.pdf"
+                href="https://drive.google.com/file/d/1eMMPOtcFPEWtIuNNs3pKmvpN3JOL3UWU/view?usp=drivesdk"
                 target="_blank"
                 className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-br from-blue-600 to-purple-700 text-white font-semibold rounded-full shadow-md hover:scale-105 hover:shadow-lg transition-all"
               >

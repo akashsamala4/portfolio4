@@ -116,7 +116,7 @@ const EducationSection = () => {
       institution: "Saanvi Junior College",
       location: "Karimnagar, India",
       period: "July 2020 – January 2022",
-      gpa: "9.18%",
+      gpa: "91.8%",
       details: [
         "Focused on Mathematics and analytical problem solving.",
         "Developed early interest in programming and technology.",
@@ -128,7 +128,7 @@ const EducationSection = () => {
       institution: "Universal High School",
       location: "Peddapalli, India",
       period: "July 2014 – May 2020",
-      gpa: "9.5%",
+      gpa: "100%",
       details: [
         "Completed schooling with strong academic performance.",
         "Built a solid foundation in logical thinking and problem solving.",
