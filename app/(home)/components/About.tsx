@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import { ArrowRight, TelegramLogo } from "phosphor-react";
-import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export function About() {
   const { t, i18n } = useTranslation("common");
@@ -23,7 +23,7 @@ export function About() {
           <div className="relative w-48 h-48 md:w-64 md:h-64 z-10">
             <Image
               src="/Professional_edited.jpg"
-              alt="chandrika's Professional Image"
+              alt="Akash's Professional Image"
               fill
               className="rounded-full border-4 border-blue-500 shadow-xl object-cover transition-transform duration-300 hover:scale-105"
             />
@@ -61,7 +61,7 @@ export function About() {
             {/* Resume Button */}
             <div className="pt-4 animate-slide-in-bottom">
               <a
-                href="https://drive.google.com/file/d/1w9CZzVblkG6DvG_pn1oYtJjGRUjQG1Xa/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1eMMPOtcFPEWtIuNNs3pKmvpN3JOL3UWU/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-br from-blue-600 to-purple-700 text-white font-semibold rounded-full shadow-md hover:scale-105 hover:shadow-lg transition-all"
