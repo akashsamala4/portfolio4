@@ -1,12 +1,11 @@
 "use client";
 
-import React from 'react';
 import {
-  FaGraduationCap,
-  FaUniversity,
-  FaCalendarAlt,
   FaAward,
-  FaBookOpen
+  FaBookOpen,
+  FaCalendarAlt,
+  FaGraduationCap,
+  FaUniversity
 } from 'react-icons/fa';
 
 // Title Component
@@ -104,7 +103,7 @@ const EducationSection = () => {
       institution: "Parul Institute of Technology",
       location: "Vadodara, India",
       period: "July 2022 - May 2026",
-      gpa: "8.5/10 (Expected)",
+      gpa: "7.5/10 (Expected)",
       details: [
         "Specialization in Web Development and Machine Learning.",
         "Relevant coursework: Data Structures & Algorithms, Database Management Systems, Operating Systems, Web Technologies, Artificial Intelligence.",
@@ -116,21 +115,21 @@ const EducationSection = () => {
     {
       degree: "Higher Secondary Education",
       major: "Science (PCM)",
-      institution: "Sri Sai Sidhartha Junior College",
-      location: "Ananthapur, India",
+      institution: "Saanvi Junior College",
+      location: "Karimnagar, India",
       period: "April 2020 - March 2022",
-      gpa: "90.3%",
+      gpa: "91.8%",
       details: [
         "Focused on Physics, Chemistry, and Mathematics.",
-        "Participated in inter-school science fairs and robotics clubs.",
+        "Participated in inter-school science fairs.",
         "Awarded 'Student of the Year' for academic excellence and extracurricular involvement."
       ],
     },
     {
       degree: "Secondary School Education",
       major: "All Subjects",
-      institution: "Narayana School",
-      location: "Tadipatri, India",
+      institution: "Universal High School",
+      location: "Peddapalli, India",
       period: "April 2019 - March 2020",
       gpa: "100%",
       details: [
