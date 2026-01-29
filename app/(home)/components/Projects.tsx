@@ -29,7 +29,7 @@ const Projects = () => {
       title: "Logistics & Supply Chain Dashboard",
       tech: [SiJavascript, SiBootstrap],
       Link: "https://github.com/akashsamala4/Logistics-and-Supply-Chain-Dashboard",
-      cover: "/LogisticsDashboard.png",
+      cover: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=500&fit=crop",
       background: "bg-blue-600",
     },
     {
