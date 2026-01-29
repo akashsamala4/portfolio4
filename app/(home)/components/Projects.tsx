@@ -1,18 +1,18 @@
+import { DirectionAwareHover } from "@/components/ui/direction-aware-hover"
+import { cn } from "@/lib/utils"
 import Link from "next/link"
 import Title from "./Title"
-import { cn } from "@/lib/utils"
-import { DirectionAwareHover } from "@/components/ui/direction-aware-hover"
 
 import {
-  SiReact,
+  SiBootstrap,
+  SiExpress,
   SiJavascript,
   SiMongodb,
-  SiExpress,
-  SiTailwindcss,
-  SiBootstrap,
-  SiNodedotjs,
-  SiRedux,
   SiNextdotjs,
+  SiNodedotjs,
+  SiReact,
+  SiRedux,
+  SiTailwindcss,
 } from "react-icons/si"
 
 const Projects = () => {
@@ -29,7 +29,7 @@ const Projects = () => {
       title: "Logistics & Supply Chain Dashboard",
       tech: [SiJavascript, SiBootstrap],
       Link: "https://github.com/akashsamala4/Logistics-and-Supply-Chain-Dashboard",
-      cover: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=500&fit=crop",
+      cover: "",
       background: "bg-blue-600",
     },
     {
